@@ -21,7 +21,16 @@ tomorrow.setHours(9, 30, 0, 0);
 const wantedTime = tomorrow.getTime(); 
 console.log(wantedTime);
 
-//funzione countdown
+//funzione per aggiornare il countdown
+function updateCountdown() {
+    const currentTime = new Date().getTime(); // Ottiene quella corrente
+    const timeDifference = wantedTime - currentTime; // calcola la differenza tra adesso e domani
+    console.log(updateCountdown());
+    
+}
+
+
+
 
 //if per dire quando finisce
 
